@@ -1,9 +1,9 @@
- import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import CollectionPage from './pages/CollectionPage'
 import Navbar from './components/Navbar'
-import { ToastContainer } from 'react-toastify';
+import { ToastContainer } from 'react-toastify'
+import "react-toastify/dist/ReactToastify.css";
   
 const App = () => {
   return (
